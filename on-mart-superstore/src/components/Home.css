@@ -1,0 +1,40 @@
+.home-component {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-gap: 32px 10px;
+    padding: 32px 20px;
+}
+
+.home-component .thumbnail-component:nth-child(3n + 2) .product_image {
+    background-color: #9BA699;
+}
+
+.home-component .thumbnail-component:nth-child(3n + 3) .product_image {
+    background-color: #3F3F40;
+}
+
+@media (min-width: 768px) {
+    .home-component {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        padding: 40px 50px;
+        grid-gap: 40px 15px;
+    }
+}
+
+.home-nav-link {
+    display: flex;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+    margin-left: 40px;
+    padding-left: 10px;
+  }
+  
+  .home-nav-link a:hover {
+    background-color: #f0f0f0; /* Adjust hover background color as needed */
+  }
+  
+  .home-nav-link a:not(:last-child) {
+    margin-right: 5px; /* Adjust spacing between links as needed */
+  }
+  

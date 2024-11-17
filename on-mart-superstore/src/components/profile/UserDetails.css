@@ -1,0 +1,114 @@
+.user-details-component {
+  display: flex;
+  align-items: center;
+}
+
+.user-details-component div {
+  display: flex;
+  align-items: center;
+}
+
+.user-details-component a {
+  color: #674836;
+  font-size: 24px;
+  text-decoration: underline;
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-end;
+  min-width: 40px;
+  margin-left: 10px;
+}
+
+.user-details-component button {
+  background-color: #674836;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 26px;
+  border: none;
+  cursor: pointer;
+  min-width: 32px;
+  margin-left: 16px;
+}
+
+.user-details-component p {
+  display: none;
+  margin: 0 10px 0 5px;
+  font-size: 24px;
+}
+
+.user-details-component img {
+  margin-left: 16px;
+}
+
+@media (min-width: 768px) {
+
+  .user-details-component a {
+    margin-left: 20px;
+  }
+
+  .user-details-component p {
+    display: block;
+    margin: 0 20px 0 5px;
+  }
+
+  .user-details-component button {
+    min-width: 100px;
+    margin-left: 0;
+  }
+
+  .user-details-component img {
+    margin-left: 20px;
+  }
+}
+
+.user-profile-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fffff9;
+}
+
+
+.user-profile-container h2 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.user-profile-container .form-group {
+  margin-bottom: 1rem;
+}
+
+.user-profile-container .form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.user-profile-container .form-group input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.user-profile-container .update_bttn {
+  background-color: green;
+  color: #f9f9f9;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-align: center;
+  font-size: large;
+}
+.user-profile-container .profile_update_btn {
+  text-align: center;
+}
+.user-profile-container .update_bttn:hover {
+  background-color: darkgreen;
+}
